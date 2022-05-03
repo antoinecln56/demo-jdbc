@@ -13,7 +13,6 @@ public class TestInsertion {
     public static void main(String[] args) {
 
         Connection connection = null;
-
         try {
             System.out.println(TestConnexionJdbc.getConnection());
             connection = TestConnexionJdbc.getConnection();
@@ -26,7 +25,8 @@ public class TestInsertion {
             System.err.println(ex.getMessage());
         } finally {
             try {
-                if (connection != null) connection.close();
+                if (connection != null)
+                    connection.close();
             } catch (Exception ex) {
                 System.err.println(ex.getMessage());
             }

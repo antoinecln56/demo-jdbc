@@ -24,7 +24,8 @@ public class TestUpdate {
             System.err.println(ex.getMessage());
         } finally {
             try {
-                if (connection != null) connection.close();
+                if (connection != null)
+                    connection.close();
             } catch (Exception ex) {
                 System.err.println(ex.getMessage());
             }

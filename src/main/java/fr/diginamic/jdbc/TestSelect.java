@@ -2,7 +2,6 @@ package fr.diginamic.jdbc;
 
 import fr.diginamic.jdbc.entites.Fournisseur;
 import org.diginamic.fr.TestConnexionJdbc;
-import org.diginamic.fr.dao.FournisseurDao;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
